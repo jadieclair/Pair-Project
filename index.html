@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Icons -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/352941762f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Script -->
+    <script defer src="index.js"></script>
+
+    <title>New Life Children’s Home</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <a href="#">
+            <img src="images/logo.png" alt="New Life Children's Home Logo" />
+          </a>
+        </div>
+
+        <div>
+          <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container">
+        <h1 class="section-title">
+          Answer a call for hope this year to assist a child in need
+        </h1>
+
+        <p>
+          Founded in 2016, the New Life Children’s Home aims to provide a place
+          of love, safety, care and Godliness to the most vulnerable members of
+          society – the orphans.
+        </p>
+
+        <label for="donate">Donate today!</label>
+        <select id="donate" name="donate" class="btn btn-primary">
+          <option value="" disabled selected hidden>Select an option</option>
+          <option value="eft">EFT</option>
+          <option value="buy-bus">BUY A BUS</option>
+          <option value="build-container">BUILD A CONTAINER</option>
+          <option value="sponsor-child">SPONSOR A CHILD</option>
+          <option value="building materials">BUILDING MATERIALS</option>
+          <option value="items-clothing">ITEMS AND CLOTHING</option>
+          <option value="visits">ONE-ON-ONE VISITS</option>
+        </select>
+
+        <a href="#" class="btn btn-primary">Donate</a>
+      </div>
+
+      <div class="hero-img"></div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about bg-accent" id="about">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+
+        <div class="vision-mission">
+          <div class="about-card">
+            <h3>Our Vision</h3>
+            <p>
+              New Life Children's Home was established in 2016 with a vision of
+              creating a revolutionary safe haven for all vulnerable children.
+              Our goal is to provide a nurturing and secure environment where
+              children can thrive and overcome the challenges they face. We
+              envision a future where every child has access to education,
+              safety, good ethics, and self-empowerment.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <h3>Our Mission</h3>
+            <p>
+              At New Life Children's Home, our mission is to create an
+              environment that is conducive to the holistic development of every
+              child under our care. We are committed to ensuring their
+              education, safety, well-being, and personal growth. As a
+              non-profit organization, we work tirelessly to find innovative
+              solutions that provide affordable housing and comprehensive
+              support services for vulnerable children.
+            </p>
+          </div>
+        </div>
+
+        <h3>Our Success Stories</h3>
+        <div class="about-success">
+          <div>
+            <div class="about-card-image">
+              <img src="images/success1.png" alt="Baby girl being held" />
+            </div>
+            <p>
+              Our Baby Safe is working! We were able to save the life of this
+              little girl when her mother had a safe and anonymous place to
+              surrender her child. Too many babies are left in dire situations,
+              open to the elements to die a slow death, due to the social taboo
+              of Baby Safes.
+            </p>
+          </div>
+
+          <div>
+            <div class="about-card-image">
+              <img src="images/success2.png" alt="Smiling baby boy" />
+            </div>
+            <p>
+              A little boy of 5 months old who was only given water for his
+              hunger pains was brought into our care. Initially unable to digest
+              formula and severely underweight, we are happy to report that
+              after 1 month in our care, his progress improves daily, and he is
+              even starting to fill out his baby-grow!
+            </p>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="controls">
+          <button id="prev-btn">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+
+          <div class="gallery-container">
+            <div class="gallery">
+              <img
+                src="images/2-boy-school.png"
+                alt="Young boy in classroom, sitting behind table"
+              />
+              <img
+                src="images/3-sandpit-front.jpg"
+                alt="Kids playing in a sandpit"
+              />
+              <img
+                src="images/4-woodlands.png"
+                alt="Kids playing in a forest"
+              />
+              <img
+                src="images/5-young-girl-reading.jpg"
+                alt="Young girl reading a book"
+              />
+              <img
+                src="images/7-boy-girl.png"
+                alt="Young girl hugging baby boy"
+              />
+              <img src="images/8-boy-ball.png" alt="Boy holding a ball" />
+              <img
+                src="images/9-kids-eating.png"
+                alt="Kids eating in a cafeteria"
+              />
+              <img src="images/10-cupcakes.png" alt="Kids eating cupcakes " />
+              <img src="images/11-bedroom.png" alt="Bedroom with two beds" />
+            </div>
+          </div>
+
+          <button id="next-btn">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events bg-accent" id="events">
+      <div class="container">
+        <h2 class="section-title">Upcoming Events</h2>
+
+        <div class="events">
+          <div class="event-card">
+            <div class="event-image">
+              <img
+                src="images/story-time.png"
+                alt="Drawing with  a young girl riding a bird"
+              />
+            </div>
+            <div class="event-content">
+              <h3>Story Time</h3>
+            </div>
+          </div>
+
+          <div class="event-card">
+            <div class="event-image">
+              <img src="images/8-boy-ball.png" alt="Boy holding a ball" />
+            </div>
+            <div class="event-content">
+              <h3>Sports Day</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Team -->
+
+    <section class="team" id="team">
+      <div class="container">
+        <h2 class="section-title">Meet Our Board</h2>
+
+        <div class="board">
+          <div class="board-card">
+            <img src="images/board1.png" alt="Julia Rodgers" />
+            <h3>Julia <span>Rodgers</span></h3>
+          </div>
+          <div class="board-card">
+            <img src="images/board2.png" alt="Muhammad Khan" />
+            <h3>Muhammad <span>Khan</span></h3>
+          </div>
+          <div class="board-card">
+            <img src="images/board3.png" alt="Grace Nwadike" />
+            <h3>Grace <span>Nwadike</span></h3>
+          </div>
+          <div class="board-card">
+            <img src="images/board4.png" alt="John Moyo" />
+            <h3>John <span>Moyo</span></h3>
+          </div>
+        </div>
+
+        <div class="job-vacancy">
+          <h3>Looking to join our expanding team?</h3>
+          <p>
+            Apply to become a <span>house parent</span>.
+            <br />
+            Applications close June 30 2023.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+
+    <section class="cta bg-accent">
+      <div class="container">
+        <h2 class="section-title">Want to join the fight?</h2>
+
+        <p>Be a changemaker!</p>
+
+        <a href="#" class="btn btn-primary">
+          Donate Now
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Sponsor Banner -->
+    <div class="sponsors">
+      <h2 class="section-title">Donate with <span>Confidence</span></h2>
+      <div class="sponsors-image-container">
+        <img
+          src="images/sponsors.png"
+          alt="Image of sponsor and partner logos"
+        />
+        <img
+          src="images/sponsors.png"
+          alt="Image of sponsor and partner logos"
+        />
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="social-links">
+          <i class="fa-solid fa-email"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
